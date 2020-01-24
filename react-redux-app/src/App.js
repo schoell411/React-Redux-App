@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import axios from 'axios';
+import Ticker from './components/Ticker';
 
 
 
@@ -9,7 +9,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>start building</h1>
+      <Ticker />
     </div>
   );
 }
