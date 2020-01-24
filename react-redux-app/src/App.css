@@ -1,41 +1,49 @@
-body, button {
-  color: #25DDF9;
-  background: #000428;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  
+body,
+button {
+	color: #25ddf9;
+	background: #000428; /* fallback for old browsers */
+	background: -webkit-linear-gradient(
+		to right,
+		#004e92,
+		#000428
+	); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(
+		to right,
+		#004e92,
+		#000428
+	); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .jumbotron {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
 }
 
 h1 {
-  font-size: 2.8rem;
-  padding: 2rem;
-  margin: 1rem;
-  border: 1px solid #25DDF9;
-  border-radius: 2rem;
+	font-size: 2.8rem;
+	padding: 2rem;
+	margin: 1rem;
+	border: 1px solid #25ddf9;
+	border-radius: 2rem;
 }
 
 img {
-  max-width: 15rem;
-  max-height: 15rem;
-  border: 3px solid #25DDF9;
+	max-width: 15rem;
+	max-height: 15rem;
+	border: 3px solid #25ddf9;
 }
 
 .content {
-  text-align: center;
+	text-align: center;
 }
 
 button {
-  border-radius: .3rem;
-  padding: 1rem;
+	border-radius: 0.3rem;
+	padding: 1rem;
 }
 
 .negative {
-  color: red;
+	color: red;
 }
