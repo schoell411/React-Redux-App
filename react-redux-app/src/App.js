@@ -1,8 +1,19 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import axios from 'axios';
+
+
+
 
 function App() {
+
+  axios
+    .get("https://api.gemini.com/v1/symbols")
+    .then(response =>{
+      console.log(response)
+    })
+
   return (
     <div className="App">
       <header className="App-header">
