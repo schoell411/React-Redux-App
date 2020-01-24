@@ -12,7 +12,13 @@ const reducer = (state = initialState, action) => {
       return {
         ...state,
         isLoading : true
-      }
+      };
+		case 'FETCHING_DATA_SUCCESS' :
+			return {
+				...state,
+				isLoading : false,
+				ticker: action.payload
+			};
     default: 
       return state
   }
